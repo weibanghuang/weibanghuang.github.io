@@ -302,7 +302,20 @@
   
     <!-- Terminal -->
     <div class="terminal" [ngSwitch]="selection.value">
-        <pre *ngSwitchDefault>weibanghuang@computer % open ~/Instruction <br>...<br>Click commands to run in terminal.</pre>
+        <pre *ngSwitchDefault>weibanghuang@computer % open ~/Instruction <br>...<br>Click commands to run in terminal. <br><pre>
+  _______________                        |*\_/*|________
+  |  ___________  |     .-.     .-.      ||_/-\_|______  |
+  | |           | |    .****. .****.     | |           | |
+  | |   0   0   | |    .*****.*****.     | |   0   0   | |
+  | |     -     | |     .*********.      | |     -     | |
+  | |   \___/   | |      .*******.       | |   \___/   | |
+  | |___     ___| |       .*****.        | |___________| |
+  |_____|\_/|_____|        .***.         |_______________|
+    _|__|/ \|_|_.............*.............._|________|_
+    / ********** \                          / ********** \
+  /  ************  \                      /  ************  \
+--------------------                    --------------------
+        </pre></pre>
         <pre *ngSwitchCase="'education'">weibanghuang@computer % open ~/Education <br>...<br>Stony Brook University <br>B.S. in Applied Math and Information Systems.</pre>
         <pre *ngSwitchCase="'experience'">weibanghuang@computer % open ~/Experiences <br>...<br>Capgemini <br>Jul.2021-Present <br>Data Engineer <br><br>Stony Brook University <br>Aug.2018-Dec.2018<br>Differential Equation Calculus TA
         <br>Tim Ho Wan <br>May.2017-Aug.2017 <br>Prep Cook</pre>
